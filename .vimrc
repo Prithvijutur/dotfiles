@@ -14,6 +14,7 @@ Plug 'git://github.com/moll/vim-node.git'
 Plug 'git://github.com/vim-scripts/EasyGrep.git'
 Plug 'git://github.com/Lokaltog/vim-easymotion.git'
 Plug 'git://github.com/mileszs/ack.vim.git'
+Plug 'git://github.com/mhinz/vim-startify.git'
 Plug 'git://github.com/kien/ctrlp.vim.git'
 call plug#end()
 
