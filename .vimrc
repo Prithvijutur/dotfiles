@@ -16,6 +16,7 @@ Plug 'git://github.com/Lokaltog/vim-easymotion.git'
 Plug 'git://github.com/mileszs/ack.vim.git'
 Plug 'git://github.com/mhinz/vim-startify.git'
 Plug 'git://github.com/kien/ctrlp.vim.git'
+Plug 'git://github.com/vim-airline/vim-airline-themes'
 call plug#end()
 
 " Highlight problematic whitespace
