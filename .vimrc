@@ -123,5 +123,8 @@ autocmd User Node
 \   nmap <buffer> <Leader>gf <Plug>NodeVSplitGotoFile |
 \ endif
 
+" Quit if nerdtree is the last window
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
 "Easy motion config
 "map <Leader> <Plug>(easymotion-prefix)
